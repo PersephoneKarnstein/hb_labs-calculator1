@@ -20,7 +20,9 @@ def multiply(num1, num2):
 def divide(num1, num2):
     """Divide the first input by the second and return the result."""
 
-    return float(num1)/float(num2)
+    if num2!=0:
+        return float(num1)/float(num2)
+    else: return "x/0 is undefined"
 
 def square(num1):
     """Return the square of the input."""
@@ -40,4 +42,17 @@ def power(num1, num2):
 def mod(num1, num2):
     """Return the remainder of num1 / num2."""
 
-    return num1%num2
+    if num2!=0:
+        return float(num1)%float(num2)
+    else: return "x/0 is undefined"
+
+def add_mult(num1, num2, num3):
+    """add n1 and n2, and multiply the sum by n3."""
+
+    return (num1+num2)*num3
+
+def add_cubes(n1, n2):
+    """add the cubes of n1 and n2."""
+
+    return (n1**3)+(n2**3)
+
