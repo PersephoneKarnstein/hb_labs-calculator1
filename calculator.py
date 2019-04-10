@@ -72,15 +72,16 @@ while True:
 
     else:
         result = "Please enter an operator followed by two integers.\nAllowable operands are as follows:\n\
-        +      : addition\n\
-        -      : subtraction\n\
-        *      : multiplication\n\
-        /      : division\n\
-        square : square\n\
-        cube   : cube\n\
-        pow    : raise to n2-th power\n\
-        mod    : modulo division\n\
-        x+     : 'add_mult'\n\
-        cubes+ : 'add_cubes'"
+        + n1 n2      : addition\n\
+        - n1 n2      : subtraction\n\
+        * n1 n2      : multiplication\n\
+        / n1 n2      : division\n\
+        square n1    : square\n\
+        cube n1      : cube\n\
+        pow n1 n2    : raise n1 to n2-th power\n\
+        mod n1 n2    : modulo division\n\
+        x+ n1 n2 n3  : add n1 and n2, multiply sum by n3\n\
+        cubes+ n1 n2 : add the cubes of n1 and n2"
+
 
     print(result)
