@@ -71,6 +71,16 @@ while True:
         result = add_cubes(float(num1), float(num2))
 
     else:
-        result = "Please enter an operator followed by two integers."
+        result = "Please enter an operator followed by two integers.\nAllowable operands are as follows:\n\
+        +      : addition\n\
+        -      : subtraction\n\
+        *      : multiplication\n\
+        /      : division\n\
+        square : square\n\
+        cube   : cube\n\
+        pow    : raise to n2-th power\n\
+        mod    : modulo division\n\
+        x+     : 'add_mult'\n\
+        cubes+ : 'add_cubes'"
 
     print(result)
